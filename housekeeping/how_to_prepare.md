@@ -33,22 +33,20 @@ You should also download, print, and study the [Programmer's Pact](./ProgrammerP
 Finally, programming in general—and data structures in particular—requires a reasonable level of comfort with **algebra and calculus**. Mathematics is the *science* in *computer science*. You should review material from **COMP 163**, especially basic notation and symbolic reasoning, including:
 
 - **number sets**  
-  $\mathbb N$, $\mathbb R$, and subset notation, for example $\mathbb R_{<0}$\
-  Suggested reading: **Concerning Sets** section from [Chapter 2](https://learning.oreilly.com/library/view/math-for-programming/9798341620063/xhtml/ch02.xhtml#ch02lev1sec1) from Ronald T. Kneusel's *Math for Programming.* (Free access with your `@luc` email address to login).
+  $\mathbb N$, $\mathbb R$, and subset notation, for example $\mathbb R_{<0}$
 
 - **function declarations**  
   $f:\mathbb N\rightarrow \mathbb R$\
-  Suggested reading: **Functions** section from [Chapter 4](https://learning.oreilly.com/library/view/math-for-programming/9798341620063/xhtml/ch04.xhtml) from Ronald T. Kneusel's *Math for Programming.* (Free access with your `@luc` email address to login).
+  Suggested reading: 
 - **quantifiers**  
-  $\exists$, $\forall$\
-  Suggested reading: **Concerning Sets** section from [Chapter 2](https://learning.oreilly.com/library/view/math-for-programming/9798341620063/xhtml/ch02.xhtml#ch02lev1sec1) from Ronald T. Kneusel's *Math for Programming.* (Free access with your `@luc` email address to login).
+  $\exists$, $\forall$
 
 - **set membership**  
-  $c\in\mathbb R_{>0}$\
-  Suggested reading: **Concerning Sets** section from [Chapter 2](https://learning.oreilly.com/library/view/math-for-programming/9798341620063/xhtml/ch02.xhtml#ch02lev1sec1) from Ronald T. Kneusel's *Math for Programming.* (Free access with your `@luc` email address to login).
+  $c\in\mathbb R_{>0}$
+  
 - **simple set operations and relations**  
-  $\cup$, $\cap$, $\times$, $\subset$, $\supset$\
-  Suggested reading: **Concerning Sets** section from [Chapter 2](https://learning.oreilly.com/library/view/math-for-programming/9798341620063/xhtml/ch02.xhtml#ch02lev1sec1) from Ronald T. Kneusel's *Math for Programming.* (Free access with your `@luc` email address to login).
+  $\cup$, $\cap$, $\times$, $\subset$, $\supset$
+  
 - **important functions**  
   $\log_2n$, $e^n$, $n!$, $\binom{n}{k}$
 
@@ -65,5 +63,11 @@ $$
 g(n) \le c\,f(n).
 \end{aligned}
 $$
+
+Suggested reading for the mathematical topics above:
+
+* **Concerning Sets** section from [Chapter 2](https://learning.oreilly.com/library/view/math-for-programming/9798341620063/xhtml/ch02.xhtml#ch02lev1sec1) from Ronald T. Kneusel's *Math for Programming.* (Free access with your `@luc` email address to login)
+
+* **Functions** section from [Chapter 4](https://learning.oreilly.com/library/view/math-for-programming/9798341620063/xhtml/ch04.xhtml) from Ronald T. Kneusel's *Math for Programming.* (Free access with your `@luc` email address to login).
 
 If you have any questions, please drop me a note.
