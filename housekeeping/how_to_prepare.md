@@ -28,7 +28,7 @@ There are two **important resources** that you should bookmark and visit frequen
 
 Knowing your way around these two resources is one of the best things you can learn about the Python programming language.
 
-You should also download, print, and study the [Programmer's Pact](./ProgrammerPact_Python_2026.pdf). This is a single page document that specifies how your code has to be written.
+You should also download, print, and study the [Programmer's Pact](./ProgrammerPact_Python_2026.pdf). This is a single page document that specifies how your code has to be written. The rationale behind the pact is explained, with examples, in [this notebook](./ProgrammerPact.ipynb). Please read it carefully.
 
 Finally, programming in general—and data structures in particular—requires a reasonable level of comfort with **algebra and calculus**. Mathematics is the *science* in *computer science*. You should review material from **COMP 163**, especially basic notation and symbolic reasoning, including:
 
@@ -58,3 +58,5 @@ $$
 g(n) \le c\,f(n).
 \end{aligned}
 $$
+
+If you have any questions, please [drop me a note](leo@cs.luc.edu)
