@@ -59,4 +59,4 @@ g(n) \le c\,f(n).
 \end{aligned}
 $$
 
-If you have any questions, please [drop me a note](mailto:leo@cs.luc.edu)
+If you have any questions, please <a href="mailto:leo\@cs.luc.edu">drop me a note</a>.
