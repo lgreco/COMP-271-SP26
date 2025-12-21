@@ -59,7 +59,7 @@ $$
 \;\Longleftrightarrow\;
 \exists\, c \in \mathbb{R}_{>0},\ \exists\, n_0 \in \mathbb{N}
 \text{ such that} \\
-&\forall\, n \in \mathbb{N},\ n \ge n_0,
+&\forall\, n \in \mathbb{N},\ n \ge n_0,\ 
 g(n) \le c\,f(n).
 \end{aligned}
 $$
