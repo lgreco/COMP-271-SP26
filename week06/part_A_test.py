@@ -10,6 +10,8 @@ import unittest  # Authorized import for unit testing
 from time import time_ns  # Authorized import for timing
 from __future__ import annotations  # Authorized import for type hints
 
+from week06 import Node, LinkedList  # Authorized import for testing
+
 
 class Node:
 
@@ -189,15 +191,15 @@ class TestLinkedListInsert(unittest.TestCase):
 ################################################################################
 # fmt: off
 #
-# If you test in a .PY file, uncomment TEST-LINE-A and TEST-LINE-B and
-# comment out TEST-LINE-C to run the tests.
+# If you test in a .PY file, uncomment TEST-LINE-1 and TEST-LINE-2 and
+# comment out TEST-LINE-3 to run the tests.
 
-# if __name__ == "__main__":              #   TEST-LINE-A
-#    unittest.main()                     #   TEST-LINE-B
+# if __name__ == "__main__":              #   TEST-LINE-1
+#    unittest.main()                     #   TEST-LINE-2
 
-# If you test in a Jupyter notebook, comment out TEST-LINE-A and TEST-LINE-B
+# If you test in a Jupyter notebook, comment out TEST-LINE-1 and TEST-LINE-2
 # and uncomment TEST-LINE-C to run the tests in the notebook.
 
-# unittest.main(argv=[''], exit=False)    #   TEST-LINE-C
+# unittest.main(argv=[''], exit=False)    #   TEST-LINE-3
 
 ################################################################################
