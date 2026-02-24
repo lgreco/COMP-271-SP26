@@ -1,8 +1,8 @@
 ########################################################################
 #                                       #                              #
-# TESTING CODE FOR WEEK 06 ASSIGNMENT.  #  Testing code requires class #
-# ADD THIS CODE AFTER YOUR WEEKO6 CODE. #  LinkedList to be present.   #
-# DO NOT MODIFY THE TESTING CODE.       #                              #
+# TESTING CODE FOR WEEK 06 ASSIGNMENT.  #  Testing code requires       #
+# ADD THIS CODE AFTER YOUR WEEKO6 CODE. #  classes Concert and         #
+# DO NOT MODIFY THE TESTING CODE.       #  Lecture to be present.      #
 #                                       #                              #
 ########################################################################
 
