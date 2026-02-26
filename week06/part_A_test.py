@@ -9,7 +9,10 @@
 import unittest  # Authorized import for unit testing
 from time import time_ns  # Authorized import for timing
 
-# MOVE THE FOLLOWING IMPORT TO THE TOP OF YOUR CODE
+
+################################################################################
+# MOVE THE FOLLOWING IMPORT TO THE TOP OF YOUR CODE                            #
+################################################################################
 from __future__ import annotations  # Authorized import for type hints
 
 from week06 import Node, LinkedList  # Authorized import for testing
