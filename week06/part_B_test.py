@@ -13,12 +13,18 @@ from time import time_ns  # Authorized import for timing
 # MOVE THE FOLLOWING IMPORT TO THE TOP OF YOUR CODE
 from __future__ import annotations  # Authorized import for type hints
 
-from week06 import Performance, Concert, Lecture   # Authorized import for testing
+from week06 import Performance, Concert, Lecture  # Authorized import for testing
 
 import unittest
 
 
 class TestConcert(unittest.TestCase):
+
+    #############################################################################
+    # Test method                                                               #
+    # TestConcert.test_concert_stores_additional_fields()                       #
+    # has been removed                                                          #
+    #############################################################################
 
     def test_concert_revenue_no_audience_is_zero(self) -> None:
         c = Concert("Summer Blast", 120, 50.0, "The Meteors", "Rock", False)
@@ -48,6 +54,11 @@ class TestConcert(unittest.TestCase):
 
 class TestLecture(unittest.TestCase):
 
+    #############################################################################
+    # Test method                                                               #
+    # TestLecture.test_lecture_stores_additional_fields()                       #
+    # has been removed                                                          #
+    #############################################################################
 
     def test_lecture_revenue_no_audience_is_zero(self) -> None:
         lec = Lecture("AI and Society", 90, 30.0, "Dr. Kwan", True)
