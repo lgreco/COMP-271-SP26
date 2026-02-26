@@ -11,7 +11,7 @@ from time import time_ns  # Authorized import for timing
 
 
 ################################################################################
-# MOVE THE FOLLOWING IMPORT TO THE TOP OF YOUR CODE                            #
+# MOVE THE FOLLOWING IMPORT FROM __FUTURE TO THE TOP OF YOUR                   #
 ################################################################################
 from __future__ import annotations  # Authorized import for type hints
 
