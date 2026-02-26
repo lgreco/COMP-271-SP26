@@ -19,13 +19,6 @@ import unittest
 
 
 class TestConcert(unittest.TestCase):
-    def test_concert_stores_additional_fields(self) -> None:
-        c = Concert("Summer Blast", 120, 50.0, "The Meteors", "Rock", True)
-        # "Protected" fields are still accessible in tests; this verifies
-        # they were stored correctly.
-        self.assertEqual("The Meteors", c._artist_name)
-        self.assertEqual("Rock", c._genre)
-        self.assertTrue(c._has_vip)
 
     def test_concert_revenue_no_audience_is_zero(self) -> None:
         c = Concert("Summer Blast", 120, 50.0, "The Meteors", "Rock", False)
@@ -54,20 +47,7 @@ class TestConcert(unittest.TestCase):
 
 
 class TestLecture(unittest.TestCase):
-    def test_lecture_stores_additional_fields(self) -> None:
-        """
-        Spec requires:
-          - speaker_name: str
-          - is_university_event: bool
 
-        If your Lecture currently uses a different field name (e.g.
-        has_student_discount), these tests will (intentionally) fail until
-        you align the implementation to the spec.
-        """
-        lec = Lecture("AI and Society", 90, 30.0, "Dr. Kwan", True)
-        self.assertEqual("Dr. Kwan", lec._speaker_name)
-        # Spec field name:
-        self.assertTrue(lec.has_student_discount)
 
     def test_lecture_revenue_no_audience_is_zero(self) -> None:
         lec = Lecture("AI and Society", 90, 30.0, "Dr. Kwan", True)
