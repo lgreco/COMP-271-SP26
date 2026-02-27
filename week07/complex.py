@@ -30,9 +30,3 @@ class Complex:
     def __eq__(self, other:Complex) -> bool:
         return ((self.re == other.re) and (self.im == other.im))
 
-    
-
-z1 = Complex(1,2) # z1 = 1 + 2i
-z2 = Complex(3,4) # z3 = 3 + 4i
-#print(z1.add(z2))
-print(z1+z2)
