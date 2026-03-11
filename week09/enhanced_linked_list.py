@@ -1,5 +1,6 @@
 from __future__ import annotations
 from linked_list import LinkedList
+from node import Node
 
 
 class EnhancedLinkedList(LinkedList):
@@ -8,10 +9,11 @@ class EnhancedLinkedList(LinkedList):
         super().__init__()
 
     def is_empty(self) -> bool:
-        return self.__size == 0
+        return self._size == 0
 
     def size(self) -> int:
-        return self.__size
+        return self._size
     
     def peek(self) -> Node | None:
-        return None if self.is_empty() else self.__head
+        return None if self.is_empty() else self._head
+    
