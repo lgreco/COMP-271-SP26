@@ -1,0 +1,33 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 5,
+  "metadata": {
+    "language_info": {
+      "name": "java"
+    }
+  },
+  "cells": [
+    {
+      "id": "e115b7a2-a42b-4ede-8217-7a55aad7f1ef",
+      "cell_type": "code",
+      "source": "public class test {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}\n\n",
+      "metadata": {
+        "language": "java",
+        "id": "e115b7a2-a42b-4ede-8217-7a55aad7f1ef",
+        "executionSummary": {
+          "executionOrder": 6,
+          "success": true
+        }
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    }
+  ]
+}
