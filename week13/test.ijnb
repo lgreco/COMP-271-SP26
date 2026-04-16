@@ -8,35 +8,57 @@
   },
   "cells": [
     {
-      "id": "418fdc59-0789-4105-8228-b8f91a61646f",
-      "cell_type": "markdown",
-      "source": "# This. Is. Unbelievable!",
-      "metadata": {
-        "language": "markdown",
-        "id": "418fdc59-0789-4105-8228-b8f91a61646f"
-      }
-    },
-    {
-      "id": "e115b7a2-a42b-4ede-8217-7a55aad7f1ef",
+      "id": "919ad6fe-7bee-4346-b416-94ed2e5817fb",
       "cell_type": "code",
-      "source": "public class test {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}\n\n",
+      "source": "public class Node {\n    \n    private String value;\n    private Node next;\n\n    public Node(String value) {\n        this.value = value;\n        this.next = null;\n    }\n\n    public String getValue() {\n        return this.value;\n    }\n\n    public Node getNext() {\n        return this.next;\n    }\n\n    public void setNext(Node next) {\n        this.next = next;\n    }\n}",
       "metadata": {
         "language": "java",
-        "id": "e115b7a2-a42b-4ede-8217-7a55aad7f1ef",
         "executionSummary": {
-          "executionOrder": 3,
+          "executionOrder": 4,
           "success": true
         }
       },
-      "execution_count": 3,
+      "execution_count": 4,
       "outputs": [
         {
           "output_type": "execute_result",
           "data": {},
           "metadata": {},
-          "execution_count": 3
+          "execution_count": 4
         }
       ]
+    },
+    {
+      "id": "e115b7a2-a42b-4ede-8217-7a55aad7f1ef",
+      "cell_type": "code",
+      "source": "public class LinkedList {\n\n    private Node head;\n    private Node tail;\n    private int count;\n\n    public LinkedList() {\n        this.head = null;\n        this.tail = null;\n        this.count = 0;\n    }\n\n    /**\n     * Add a node to the linked list\n     * \n     * @param value String for which we create a\n     *              new node and append it to the end of the list.\n     */\n    public void addNode(String value) {\n        // Create the new node:\n        Node newNode = new Node(value);\n        // If list is empty, new node becomes head,\n        // otherwise, we appended to the tail node\n        if (this.count == 0) {\n            this.head = newNode;\n        } else {\n            this.tail.setNext(newNode);\n        }\n        this.tail = newNode;\n        this.count++; // same as this.count = this.count+1\n    }\n}",
+      "metadata": {
+        "language": "java",
+        "id": "e115b7a2-a42b-4ede-8217-7a55aad7f1ef",
+        "executionSummary": {
+          "executionOrder": 5,
+          "success": true
+        }
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {},
+          "metadata": {},
+          "execution_count": 5
+        }
+      ]
+    },
+    {
+      "id": "4e97beab-1888-4719-8ed3-645e7bc5db87",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "language": "java"
+      },
+      "execution_count": null,
+      "outputs": []
     }
   ]
 }
