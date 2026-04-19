@@ -1,0 +1,21 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 5,
+  "metadata": {
+    "language_info": {
+      "name": "java"
+    }
+  },
+  "cells": [
+    {
+      "id": "f1559d32-895a-4b3a-a706-18e2548d60fd",
+      "cell_type": "code",
+      "source": "public class BST_Array {\n\n    private String[] words;\n    private int capacity;\n    private int size;\n\n    public BST_Array(int expectedNumberOfWords) {\n        // 2^n - 1\n        this.capacity = (int) Math.pow(2, expectedNumberOfWords) - 1;\n        this.words = new String[capacity];\n        this.size = 0;\n    }\n\n    public void insert(String word) {\n        if (this.size < this.capacity) {\n            // Safe to operate\n            if (this.words[0] == null) {\n                // Object is empty, we are now placing\n                // the first word in it.\n                this.words[0] = word;\n            } else {\n                // Need to go left/right until I find an empty spot\n                // First I need some aux methods\n            }\n        }\n    }\n\n    private int left(int parent) {\n        return 2*parent+1;\n    }\n\n    private int right(int parent) {\n        //return 2*(parent+1);\n        return this.left(parent)+1\n    }\n\n}",
+      "metadata": {
+        "language": "java"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
